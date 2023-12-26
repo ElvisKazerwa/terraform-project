@@ -12,8 +12,8 @@ terraform {
 #Keep in mind these keys are not corect
 provider "aws"{
   region     = "eu-central-1"
-  access_key = "AKIA52LJEQNMWWIRCSTTOF53NX"
-  secret_key = "GAqkjt7DUbpIYA8ERTiwsgsJZ7XzsI5jdYDsK+Z44OpRS3x"
+  access_key = " "
+  secret_key = " "
 }
 
 # Create a VPC
