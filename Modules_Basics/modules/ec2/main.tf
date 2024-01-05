@@ -8,6 +8,7 @@ terraform {
  }
 }
 
+
 # Create an EC2 instance
 resource "aws_instance" "server" {
   ami = var.ami_id
