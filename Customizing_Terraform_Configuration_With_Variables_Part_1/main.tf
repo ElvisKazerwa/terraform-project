@@ -15,7 +15,8 @@ provider "aws"{
   secret_key = "GAqkjt7DUbpIYA8EJZ7XzsI5jdYDsK+Z44OpRS3x"
 }
 
-# Create a VPC
+# Create a AWS-VPC
+
 resource "aws_vpc" "main" {
   cidr_block = var.vpc_cidr_block  # using variables
   tags = {
